@@ -2,3 +2,45 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
+.content {
+    width: 800px;
+    max-width: 80%;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #2dcf1e;
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    font-size: large;
+    justify-items: center;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.btn:hover {
+    border-color: blue;
+}
+
+.container {
+    text-align: center;
+    font-size: x-large;
+    color: #2dcf1e;
+}
